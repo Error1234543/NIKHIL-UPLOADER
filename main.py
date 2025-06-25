@@ -59,12 +59,12 @@ photozip = 'https://envs.sh/cD_.jpg'
 
 
 # Inline keyboard for start command
-BUTTONSCONTACT = InlineKeyboardMarkup([[InlineKeyboardButton(text="🌸 Contact", url="https://t.me/Xyzaxv")]])
+BUTTONSCONTACT = InlineKeyboardMarkup([[InlineKeyboardButton(text="🌸 Contact", url="https://t.me/Sonicdmbot")]])
 keyboard = InlineKeyboardMarkup(
     [
         [
-            InlineKeyboardButton(text="🌸 Help", url="https://t.me/Xyzaxv"),
-            InlineKeyboardButton(text="🌸 Repo", url="https://t.me/Xyzaxv"),
+            InlineKeyboardButton(text="🌸 Help", url="https://prakash 8307"),
+            InlineKeyboardButton(text="🌸 Repo", url="https://t.me/prakash 8307"),
         ],
     ]
 )
@@ -450,7 +450,7 @@ async def send_logs(client: Client, m: Message):  # Correct parameter name
     except Exception as e:
         await m.reply_text(f"Error sending logs: {e}")
 
-@bot.on_message(filters.command(["drm"]) )
+@bot.on_message(filters.command(["paku"]) )
 async def txt_handler(bot: Client, m: Message):  
     editable = await m.reply_text(f"__Hii, I am non-drm Downloader Bot__\n<blockquote><i>Send Me Your text file which enclude Name with url...\nE.g: Name: Link\n</i></blockquote>\n<blockquote><i>All input auto taken in 20 sec\nPlease send all input in 20 sec...\n</i></blockquote>")
     input: Message = await bot.listen(editable.chat.id)
