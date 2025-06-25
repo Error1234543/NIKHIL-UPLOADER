@@ -7,7 +7,7 @@
         "video-extract",
         "pyrogram"
     ],
-    "repository": "https://github.com/nikhilsainiop/saini-txt-direct",
+    "repository": "https://github.com/Error1234543/NIKHIL-UPLOADER",
     "success_url": "https://t.me/Sonicdmbot",
     "stack": "container",
     "env": {
